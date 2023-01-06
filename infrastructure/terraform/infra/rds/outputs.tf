@@ -11,5 +11,5 @@ output "rds_password" {
 }
 
 output "rds_dbname" {
-    value = aws_db_instance.airflow.name
+    value = aws_db_instance.airflow.db_name
 }

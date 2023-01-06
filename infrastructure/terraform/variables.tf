@@ -6,14 +6,14 @@ variable "aws_profile" {
 variable "aws_region" {
   type = string
   description = "AWS region to deploy"
-  default = "us-east-2"
+  default = "eu-west-1"
 }
 
 # network
 variable "azs" {
   type = list
   description = "List of availability zones to create subnets"
-  default = ["us-east-2a", "us-east-2b", "us-east-2c"]
+  default = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
 }
 
 variable "private_subnets" {
